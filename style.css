@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    background-color: #EBEAEF;
+    display: flex;
+
+    justify-content: center;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.listContainer {
+    background-color: #F4F7F9;
+    width: 400px;
+    padding: 15px;
+}
+
+
+
+/* -----------dateStyles--------- */
+
+#dateContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dateLeft {
+    display: flex;
+}
+
+.dateRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#dateDay {
+    font-size: 40px;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+#dateMonth {
+    font-weight: bold;
+}
+
+#dateText {
+    font-weight: bold;
+}
+
+/* -------formStyles--------- */
+
+.roundBorder {
+    border-radius: 5px;
+    border-style: none;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+#btnAdd {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #F7C391;
+    font-weight: BOLD;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+#btnOrder {
+    width: 80px;
+    margin-right: 4px;
+    background-color: #A8E1DF;
+    cursor: pointer;
+}
+
+.newTask {
+    width: 100%;
+    background-color: #A8E1DF;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.done {
+    text-decoration: line-through;
+}

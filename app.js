@@ -32,7 +32,7 @@ const addTask = (e) => {
     let task = document.createElement('div');
 
     task.innerHTML = value;
-    task.classList.add('roundBorder');
+    task.classList.add('roundBorder', 'newTask');
     task.addEventListener('click', taskState)
     taskList.prepend(task);
 

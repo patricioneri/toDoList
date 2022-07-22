@@ -5,25 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap" rel="stylesheet">
+
 
     <title>Document</title>
 </head>
 <body>
     <div class="listContainer">
         <div id="dateContainer">
-            <div id="dateDay"></div>
-            <div>
-                <div id="dateMonth"></div>
-                <div id="dateYear"></div>
+            <div class="dateLeft">
+                <div id="dateDay"></div>
+                <div>
+                    <div id="dateMonth"></div>
+                    <div id="dateYear"></div>
+                </div>
             </div>
-            <div id="dateText"></div>
+            <div class="dateRight">
+                <div id="dateText"></div> 
+            </div>
         </div>
         <div>
             <form id="form">
-                <input type="text" name="newTask">
+                <input type="text" name="newTask" placeholder="Nueva tarea" class="roundBorder">
                 <button id="btnAdd" type="submit" name="" class="roundBorder">+</button>
-                <button id="btnOrder" type="button">Ordenar</button>
+                <button id="btnOrder" type="button" class="roundBorder">Ordenar</button>
             </form>
             <div id="taskList"></div>
         </div>
